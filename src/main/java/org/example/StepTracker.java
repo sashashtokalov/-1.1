@@ -33,6 +33,7 @@ public class StepTracker {
             System.out.println("Введите неотрицательное количество шагов");
             return;
         }
+
         MonthData month = monthArray[monthNumber-1];
         month.days[dayNumber-1] = stepsNumber;
     }
