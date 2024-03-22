@@ -10,11 +10,11 @@ public class Main {
             printMenu();
             int command = scanner.nextInt();
             if (command == 1) {
-                System.out.println("Ввести количество шагов за определённый день");
+                stepTracker.addNewNumberStepsPerDay();
             } else if (command == 2) {
-                System.out.println("Изменить цель по количеству шагов в день");
+                stepTracker.changeStepGoal();
             } else if (command == 3) {
-                System.out.println("Напечатать статистику за определённый месяц");
+               stepTracker.printStatistic();
             } else if (command == 4) {
                 System.out.println("Пока!");
                 scanner.close();
