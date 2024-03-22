@@ -22,6 +22,7 @@ public class Main {
             } else {
                 System.out.println("Такой команды нет");
             }
+
         }
     }
 
